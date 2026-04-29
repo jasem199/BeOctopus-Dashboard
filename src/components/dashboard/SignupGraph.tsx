@@ -44,7 +44,7 @@ export function SignupGraph() {
           const chart = context.chart;
           const { ctx, chartArea } = chart;
           if (!chartArea) {
-            return null;
+            return "transparent";
           }
           const gradient = ctx.createLinearGradient(
             0,
